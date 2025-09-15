@@ -12,7 +12,7 @@ The most recent versions of wdsp are from TAPR at https://github.com/TAPR/OpenHP
  
 John Melton, g0orx/n6lyt, did a Linux port. See https://github.com/g0orx/wdsp. Christoph, DL1YCF, added some improvements. See https://github.com/dl1ycf/pihpsdr. This repo is based on their work, and is provided as a convenience.
 
-First, make sure that the fftw3 library and include files are installed. Then clone this repo, change to the wdsp directory and enter "make". That will build the static library libwdsp.a and the shared library libwdsp.so. There is a "clean" target but no "install" target. You can change to the "build_" directories and enter "make" to make just the static or shared library.
+First, make sure that the fftw3 library and include files are installed. Then clone this repo, change to the wdsp directory and enter "make". That will build the static library libwdsp.a and the shared library libwdsp.so. There is a "clean" target but no "install" target. You can change to the "build_" directories and enter "make" to make just the static or shared library. The binary files calculus and zetaHat.bin are not required by the libraries.
 
 Jim Ahlstrom
 N2ADR
